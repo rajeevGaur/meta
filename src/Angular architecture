@@ -20,3 +20,9 @@ Angular NgModules differ from and complement JavaScript (ES2015) modules. An NgM
 Every Angular application has a root module, conventionally named AppModule, which provides the bootstrap mechanism that launches the application. An application typically contains many functional modules.
 
 Like JavaScript modules, NgModules can import functionality from other NgModules, and allow their own functionality to be exported and used by other NgModules. For example, to use the router service in your app, you import the Router NgModule.
+
+
+Components
+Every Angular application has at least one component, the root component that connects a component hierarchy with the page document object model (DOM). Each component defines a class that contains application data and logic, and is associated with an HTML template that defines a view to be displayed in a target environment.
+
+The @Component() decorator identifies the class immediately below it as a component, and provides the template and related component-specific metadata.
