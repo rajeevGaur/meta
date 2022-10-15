@@ -12,7 +12,7 @@ export class TestChildComponent {
   encRequest: string;
   accessCode: string;
 
-  constructor(private utils: UtilsService, private seoSvc: SeoServiceService, private objUtils: UtilsService) {
+  constructor(private utils: UtilsService, private seoSvc: SeoServiceService, public objUtils: UtilsService) {
     this.accessCode = 'AVQR75FA88CK38RQKC';
     this.encRequest =
       '7ec70e79d99fac49e1645b7a8480aeb73d2182f0a8f9266e875a949d4a2a33e62ebef84371721a0f3f8b9ad7522858c9680b518304169a2dddbe8f06602b9957a84862ef27bff93a956a4da4fd2763abb3b3a2066795255d0972ef7d8f1f711374201e6623dd4b374683206eda46326d3052814fa6afe90cc76f6d90e2c5b693b3dab2b5342e05fb4b3b60d6e8d36561';

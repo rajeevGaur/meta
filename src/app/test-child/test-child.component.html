@@ -6,6 +6,8 @@
         <button (click)="pay()">Pay</button>
     </div>
 </div>
+{{objUtils.metaInfoObj.pageTitle}}
+{{objUtils.metaInfoObj.pageTitle}}{{objUtils.metaInfoObj.pageTitle}}
 <form #form ngNoForm id="nonseamless" method="post" name="redirect"
     action="https://test.ccavenue.com/transaction/transaction.do?command=initiateTransaction">
     <input type="hidden" id="encRequest" name="encRequest" [(ngModel)]="encRequest">
