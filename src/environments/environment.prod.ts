@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  apiUrl: 'https://lum-stagingqa-api.azurewebsites.net/customer/api/',
 };
