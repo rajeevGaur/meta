@@ -7,6 +7,8 @@ const routes: Routes = [
   { path: '', component: TestParentComponent },
   { path: 'parent', component: TestParentComponent },
   { path: 'child', component: TestChildComponent },
+  //wild card route
+    { path: '**', component: TestChildComponent },
 ];
 
 
