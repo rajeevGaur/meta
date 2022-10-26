@@ -5,6 +5,7 @@ import { TestParentComponent } from './test-parent/test-parent.component';
 
 const routes: Routes = [
   { path: '', component: TestParentComponent },
+    { path: 'test-parent/:id', component: TestParentComponent },
   { path: 'parent', component: TestParentComponent },
   { path: 'child', component: TestChildComponent },
   //wild card route
