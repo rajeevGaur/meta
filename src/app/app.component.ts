@@ -11,13 +11,11 @@ export class AppComponent {
   title = 'ssr-test';
 
   constructor(private seoSvc: SeoServiceService) {
-    // let seoData: any = {
-    //   metaTitle: 'Rishabh',
-    //   metaDescription: 'Rishabh'
-    // };
-
-
-    // this.seoSvc.setData(seoData);
+    let seoData: any = {
+      metaTitle: 'Rishabh',
+      metaDescription: 'Rishabh'
+    };
+    this.seoSvc.setData(seoData);
   }
 
 
